@@ -1,0 +1,133 @@
+root{
+	menu-hover:#FE8F01;
+	color-general:#898989;
+	color-titulos:#282d33;
+	color-iconos: #e0e0e0;
+	color-checks:#53c3c9;
+}
+body{
+	font-size: 14px;
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+	border-bottom:1px solid #eee;
+	margin-bottom:10px;
+}
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+
+.hero {
+    background-color: #fff;
+    padding: 0px 0;
+}
+.hero h1 {
+    color: #282d33;
+    font-family: 'Catamaran', sans-serif;
+}
+.hero p {
+    color: #898989;
+    font-family: 'Catamaran', sans-serif;
+}
+.hero img {
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+
+.services {
+    background-color: #f9f9f9;
+    padding: 180px 0;
+}
+.service-icon {
+    font-size: 150px;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+}
+.services h3 {
+    color: #282d33;
+	font-size: 28px;
+    font-family: 'Catamaran', sans-serif;
+}
+.services p {
+    color: #898989;
+    font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+    margin-bottom: 5px;  
+    line-height: 1.4;  
+}
+
+.services .col-md-4 p:last-of-type::after {
+    content: "✔";  
+    color: #53c3c9; 
+	display: block; 
+    font-size: 42px; 
+    margin-left: 5px;
+    font-weight: bold;
+	margin-top: 10px;
+}
+
+
+.cta {
+    background: url('../img/using-touchscreen.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    color: white;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.cta h2 {
+    color: #fff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+	line-height: 1.1;
+}
+
+.cta-text {
+    
+    padding: 20px;
+    border-radius: 5px;
+	text-align: center;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	
+}
+
+.cta p {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color: #fff;
+	margin: 5px 0;
+}
+
+.cta .btn-light {
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 20px;
+	margin-top: 15px;
+}
+
+
+
+.customers {
+    background-color:  #f9f9f9;
+    padding: 50px 0;
+}
+.customer-logo {
+    max-width: 215px;
+    margin: 10px auto;
+	display: block;
+}
+
